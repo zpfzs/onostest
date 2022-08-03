@@ -104,7 +104,7 @@ const onosRoutes: Routes = [
     },
     {
         path: '',
-        redirectTo: 'topo2', // Default to Topology view
+        redirectTo: 'roadm-gui', // Default to Topology view
         pathMatch: 'full'
     },
 ];

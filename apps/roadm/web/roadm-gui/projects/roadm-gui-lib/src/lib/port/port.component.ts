@@ -249,4 +249,5 @@ export class RoadmPortComponent extends TableBaseImpl implements OnInit, OnDestr
     convertNumber(str: string): number {
         return Number(str);
     }
+
 }

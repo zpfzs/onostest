@@ -1,36 +1,109 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>ONOS Login</title>-->
+<!--    <link rel="shortcut icon" href="data/img/onos-logo.png">-->
+<!--    <style type="text/css">-->
+<!--        img {-->
+<!--            margin: 24px;-->
+<!--        }-->
+<!--        td {-->
+<!--            font: normal 16px Helvetica, Arial, sans-serif !important;-->
+<!--            text-align: left;-->
+<!--            padding: 4px;-->
+<!--        }-->
+<!--        input {-->
+<!--            font: normal 16px Helvetica, Arial, sans-serif !important;-->
+<!--            padding: 3px;-->
+<!--        }-->
+
+<!--        input[type="submit"] {-->
+<!--            margin-top: 20px;-->
+<!--            margin-left: auto;-->
+<!--            margin-right: auto;-->
+<!--            display: block;-->
+<!--            padding: 4px 16px;-->
+<!--            background-color: #CE5650;-->
+<!--            color: #fff;-->
+<!--            /*width: 100%; /!* width of image *!/*/-->
+<!--            height: 32px;-->
+<!--            border-radius: 3px;-->
+<!--            border: 0;-->
+<!--            -moz-outline-radius: 6px;-->
+<!--        }-->
+
+<!--        input[type="submit"]:hover {-->
+<!--            border-radius: 3px;-->
+<!--            border: 1px;-->
+<!--            border-color: #fff;-->
+<!--            border-style: solid;-->
+<!--            box-shadow: 0px 0px 10px #3399ff;-->
+<!--            outline-style: solid;-->
+<!--            outline-width: 3px;-->
+<!--            outline-color: #3399ff;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div align="center">-->
+<!--    <img src="data/img/onos-logo.lg.png"/>-->
+
+<!--    <form method="post" action="j_security_check">-->
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <td>User:</td>-->
+<!--                <td><input id="username" name="j_username" type="text" autofocus/></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td>Password:</td>-->
+<!--                <td><input id="password" name="j_password" type="password"/></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td colspan="2"><input id="submit" type="submit" value="Login"/></td>-->
+<!--            </tr>-->
+<!--        </table>-->
+<!--    </form>-->
+<!--</div>-->
+<!--</body>-->
+<!--</html>-->
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <title>ONOS Login</title>
-    <link rel="shortcut icon" href="data/img/onos-logo.png">
+    <link rel="shortcut icon" href="https://pic2.zhimg.com/80/v2-954bf4218c58066a6f09987054ad03a0_720w.jpg?source=d16d100b">
     <style type="text/css">
         img {
             margin: 24px;
         }
         td {
-            font: normal 16px Helvetica, Arial, sans-serif !important;
+            font: normal 18px Helvetica, Arial, sans-serif !important;
             text-align: left;
             padding: 4px;
         }
         input {
-            font: normal 16px Helvetica, Arial, sans-serif !important;
+            font: normal 20px Helvetica, Arial, sans-serif !important;
             padding: 3px;
         }
 
+        table {
+            margin-top:20px;
+            align:center;
+        }
         input[type="submit"] {
             margin-top: 20px;
             margin-left: auto;
             margin-right: auto;
             display: block;
             padding: 4px 16px;
-            background-color: #CE5650;
-            color: #fff;
+            background-color: #0085ca;
+            color:white;
             /*width: 100%; /!* width of image *!/*/
             height: 32px;
-            border-radius: 3px;
+            border-radius:3px;
             border: 0;
-            -moz-outline-radius: 6px;
+            -moz-outline-radius:6px;
         }
 
         input[type="submit"]:hover {
@@ -43,24 +116,59 @@
             outline-width: 3px;
             outline-color: #3399ff;
         }
+        #downbox{
+            width: 500px;
+            height: 300px;
+            border: 1px solid #bb51c3;
+            border-radius: 70px;
+            background-color: #519fc3;
+            position:fixed;
+            z-index: -10;
+            margin-top: 290px;
+            margin-left: 600px;
+            margin-right: 670px;
+            align:center;
+        }
+        #title{
+            position:absolute;
+            margin-top: 320px;
+            margin-left: 630px;
+            /* margin-right: auto; */
+            align:center;
+            color:white;
+            font-size: 25px;
+        }
+
+
     </style>
 </head>
 <body>
+<body background="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fcz-video-photo.oss-cn-beijing.aliyuncs.com%2F20200508%2F69803d331c34a12de38e96bbca3627c3_00003.jpg&refer=http%3A%2F%2Fcz-video-photo.oss-cn-beijing.aliyuncs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1655002350&t=02ae07b0e0669703af779f3fb8d0349a"  style="background-repeat: no-repeat;background-size: 100% 100%; background-attachment: fixed;">
+
 <div align="center">
-    <img src="data/img/onos-logo.lg.png"/>
+    <div id="downbox" align="center"></div>
+    <div id="title" align="center" font-weight="2000" ><b>Multidimentional Resource Control</b></div>
+<!--    Multidimentional Resource Control-->
+    <img src="https://pic1.zhimg.com/80/v2-6a9d7ae6a58b0c147c66222024cd273b_720w.jpg?source=d16d100b" />
+
+
 
     <form method="post" action="j_security_check">
+
         <table>
+
+
             <tr>
-                <td>User:</td>
+                <td><div style="color:whitesmoke;" font-weight=900; position="absolute";><b>User:</b></div></td>
                 <td><input id="username" name="j_username" type="text" autofocus/></td>
             </tr>
             <tr>
-                <td>Password:</td>
+                <td><div style="color:whitesmoke;" font-weight=900; position="absolute";><b>Password:</b></div> </td>
                 <td><input id="password" name="j_password" type="password"/></td>
             </tr>
             <tr>
-                <td colspan="2"><input id="submit" type="submit" value="Login"/></td>
+                <!-- <td colspan="2"><input id="submit" type="submit" value="Login "/></td></tr></br><div id="text">sign in to start your session</div></td> -->
+                <td colspan="2"><input id="submit" type="submit" value="Login "/><div style="color:black; "font-weight=700; align="center">  Sign in to start your session!</div></td>
             </tr>
         </table>
     </form>

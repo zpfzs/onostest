@@ -21,22 +21,46 @@ import { RoadmDeviceComponent } from './roadm/roadm.component';
 import { RoadmRoutingModule } from './roadm-routing.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RoadmPortComponent } from './port/port.component';
+import { HomeComponent } from './roadm/components/home/home.component';
+import { TopologyComponent } from './roadm/components/topology/topology.component';
+import { ApplicationComponent } from './roadm/components/application/application.component';
+import { ResourceComponent } from './roadm/components/resource/resource.component';
+import { StorageService } from './roadm/services/storage.service';
+import { TopoService } from './roadm/services/topo.service';
+import { HttpClientModule } from '@angular/common/http';
+import { AuxiliaryComponent } from './roadm/components/topology/auxiliary/auxiliary.component';
+import { VirtualComponent } from './roadm/components/topology/virtual/virtual.component';
+import { XinjiangComponent } from './roadm/components/topology/xinjiang/xinjiang.component';
+import { XinjiangdataService } from './roadm/services/xinjiangdata.service';
 
 @NgModule({
     declarations: [
         RoadmDeviceComponent,
         RoadmPortComponent,
+        HomeComponent,
+        TopologyComponent,
+        ApplicationComponent,
+        ResourceComponent,
+        AuxiliaryComponent,
+        VirtualComponent,
+        XinjiangComponent,
     ],
     imports: [
         RoadmRoutingModule,
         Gui2FwLibModule,
         CommonModule,
         FormsModule,
-        ReactiveFormsModule
+        ReactiveFormsModule,
+        HttpClientModule,
     ],
     exports: [
         RoadmDeviceComponent,
         RoadmPortComponent,
-    ]
+    ],
+    providers: [
+        StorageService,
+        TopoService,
+        XinjiangdataService,
+    ],
 })
 export class RoadmGuiLibModule { }

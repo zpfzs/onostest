@@ -20,7 +20,7 @@
               "src/main/webapp/data"
             ],
             "styles": ["src/main/webapp/onos.global.css"],
-            "scripts": []
+            "scripts": ["src/main/webapp/echarts.js"]
           },
           "configurations": {
             "production": {

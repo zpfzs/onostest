@@ -1313,7 +1313,7 @@
      identity dvbTdm {
        base iana-interface-type;
        description
-         "DVB Satellite TDM.";
+         "DVB roadm TDM.";
        reference
          "RFC 5728 - The SatLabs Group DVB-RCS MIB";
      }

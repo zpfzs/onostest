@@ -52,6 +52,20 @@ public class RoadmDeviceViewMessageHandler extends UiMessageHandler {
     private static final String SW_VERSION = "swVersion";
     private static final String PROTOCOL = "protocol";
 
+    //定义触发数据类型
+    private static final String HI_SGP_RESP = "hiResponse";
+    private static final String THERECEIVE = "receive message";
+
+    //发送字符
+    public String theFirst;
+    public String theSecond;
+
+    //
+    private static final String HELLOWORLD_REQ = "helloworldRequest";
+    private static final String THE_FIRST_WORD = "thefirstword";
+    private static final String THE_SECOND_WORD = "thesecondworld";
+
+
     private static final String[] COLUMN_IDS = {
             ID, NAME, TYPE, MASTER, PORTS, VENDOR, HW_VERSION, SW_VERSION, PROTOCOL
     };
@@ -68,7 +82,7 @@ public class RoadmDeviceViewMessageHandler extends UiMessageHandler {
 
     @Override
     protected Collection<RequestHandler> createRequestHandlers() {
-        return ImmutableSet.of(new DeviceTableDataRequestHandler());
+        return ImmutableSet.of(new DeviceTableDataRequestHandler(), new SayHelloWorld());
     }
 
     // Handler for sample table requests
@@ -114,6 +128,28 @@ public class RoadmDeviceViewMessageHandler extends UiMessageHandler {
                     .cell(HW_VERSION, device.hwVersion())
                     .cell(SW_VERSION, device.swVersion())
                     .cell(PROTOCOL, RoadmUtil.getAnnotation(device.annotations(), PROTOCOL));
+        }
+    }
+
+    private final class SayHelloWorld extends RequestHandler {
+        private SayHelloWorld() {
+            super(HELLOWORLD_REQ);
+        }
+
+        @Override
+        public void process(ObjectNode payload) {
+            theFirst = string(payload, THE_FIRST_WORD);
+//            log.info("The first word : {}", theFirst);
+            theSecond = string(payload, THE_SECOND_WORD);
+//            log.info("The second word : {}", theSecond);
+
+            String theResponse = "hi sgp";
+
+            ObjectNode test = objectNode();
+            test.put(THERECEIVE, theResponse);
+            //riskLink.put(LINK_RISK_ID,linkId);
+            sendMessage(HI_SGP_RESP, test);
+
         }
     }
 }

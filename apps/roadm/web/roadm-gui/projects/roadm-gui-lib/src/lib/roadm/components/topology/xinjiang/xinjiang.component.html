@@ -1,0 +1,50 @@
+<body>
+<div id="main_topo">
+    <div class="div_title">
+        <img [src]="pic3"><p>Topology</p>
+        <div class="clear"></div>
+        <hr>
+    </div>
+    <div id="div_topo">
+        <svg id="mainsvg" class="svgs" width="1600" height="1600"></svg>
+    </div>
+</div>
+<div id="service_line">
+    <div class="div_title">
+        <img [src]="pic3"><p>Details</p>
+        <div class="clear"></div>
+        <hr>
+    </div>
+    <div id="div_service">
+        <div id="gen">
+            <p class="title">General Situation</p>
+            <div id="general">
+                <p>Protocol:GMPLS</p>
+                <p>Nodes:{{nodes_num}}</p>
+                <p>Links:{{links_num}}</p>
+            </div>
+        </div>
+        <div id="no">
+            <p class="title">Information of Node</p>
+            <div id="nodes"></div>
+        </div>
+        <div id="li">
+            <p class="title">Information of Link</p>
+            <div id="links"></div>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+
+
+

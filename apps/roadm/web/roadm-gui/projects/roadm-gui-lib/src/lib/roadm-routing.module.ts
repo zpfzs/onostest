@@ -17,6 +17,13 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { RoadmDeviceComponent } from './roadm/roadm.component';
 import { RoadmPortComponent } from './port/port.component';
+import { HomeComponent } from './roadm/components/home/home.component';
+import { TopologyComponent } from './roadm/components/topology/topology.component';
+import { ApplicationComponent } from './roadm/components/application/application.component';
+import { ResourceComponent } from './roadm/components/resource/resource.component';
+import { AuxiliaryComponent } from './roadm/components/topology/auxiliary/auxiliary.component';
+import { VirtualComponent } from './roadm/components/topology/virtual/virtual.component';
+import { XinjiangComponent } from './roadm/components/topology/xinjiang/xinjiang.component';
 
 const appRoutes: Routes = [
     {
@@ -25,8 +32,49 @@ const appRoutes: Routes = [
     },
     {
         path: '',
-        component: RoadmDeviceComponent
+        component: RoadmDeviceComponent,
+        children:[
+                     {
+                         path: 'home',
+                         component: HomeComponent
+                     },
+                     {
+                         path: 'topology',
+                         component: TopologyComponent,
+                         children:[
+                            {
+                                path: 'virtual',
+                                component: VirtualComponent
+                            },
+                            {
+                                path: 'auxiliary',
+                                component: AuxiliaryComponent
+                            },
+                            {
+                                path: 'xinjiang',
+                                component: XinjiangComponent
+                            },
+                            {
+                                path: '',
+                                redirectTo: 'virtual'
+                            }
+                         ]
+                     },
+                     {
+                         path: 'application',
+                         component: ApplicationComponent
+                     },
+                     {
+                         path: 'resource',
+                         component: ResourceComponent
+                     },
+                     {
+                         path: '',
+                         redirectTo: 'home'
+                     }
+        ]
     },
+
 ];
 
 /**

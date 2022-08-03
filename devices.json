@@ -1,0 +1,1304 @@
+{
+    "devices": {
+        "netconf:127.0.0.1:11001": {
+            "basic": {
+                "name": "tknb-device-001",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11001",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11002": {
+            "basic": {
+                "name": "tknb-device-002",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11002",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11003": {
+            "basic": {
+                "name": "tknb-device-003",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11003",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11004": {
+            "basic": {
+                "name": "tknb-device-004",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11004",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11005": {
+            "basic": {
+                "name": "tknb-device-005",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11005",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11006": {
+            "basic": {
+                "name": "tknb-device-006",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11006",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11007": {
+            "basic": {
+                "name": "tknb-device-007",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11007",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11008": {
+            "basic": {
+                "name": "tknb-device-008",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11008",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11009": {
+            "basic": {
+                "name": "tknb-device-009",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11009",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11010": {
+            "basic": {
+                "name": "tknb-device-010",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11010",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11011": {
+            "basic": {
+                "name": "tknb-device-011",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11011",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11012": {
+            "basic": {
+                "name": "tknb-device-012",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11012",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11013": {
+            "basic": {
+                "name": "tknb-device-013",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11013",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11014": {
+            "basic": {
+                "name": "tknb-device-014",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11014",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11015": {
+            "basic": {
+                "name": "tknb-device-015",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11015",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11016": {
+            "basic": {
+                "name": "tknb-device-016",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11016",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11017": {
+            "basic": {
+                "name": "tknb-device-017",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11017",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11018": {
+            "basic": {
+                "name": "tknb-device-018",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11018",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11019": {
+            "basic": {
+                "name": "tknb-device-019",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11019",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11020": {
+            "basic": {
+                "name": "tknb-device-020",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11020",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11021": {
+            "basic": {
+                "name": "tknb-device-021",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11021",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11022": {
+            "basic": {
+                "name": "tknb-device-022",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11022",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11023": {
+            "basic": {
+                "name": "tknb-device-023",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11023",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11024": {
+            "basic": {
+                "name": "tknb-device-024",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11024",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11025": {
+            "basic": {
+                "name": "tknb-device-025",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11025",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11026": {
+            "basic": {
+                "name": "tknb-device-026",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11026",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11027": {
+            "basic": {
+                "name": "tknb-device-027",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11027",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11028": {
+            "basic": {
+                "name": "tknb-device-028",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11028",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11029": {
+            "basic": {
+                "name": "tknb-device-029",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11029",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11030": {
+            "basic": {
+                "name": "tknb-device-030",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11030",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11031": {
+            "basic": {
+                "name": "tknb-device-031",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11031",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11032": {
+            "basic": {
+                "name": "tknb-device-032",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11032",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11033": {
+            "basic": {
+                "name": "tknb-device-033",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11033",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11034": {
+            "basic": {
+                "name": "tknb-device-034",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11034",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11035": {
+            "basic": {
+                "name": "tknb-device-035",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11035",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11036": {
+            "basic": {
+                "name": "tknb-device-036",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11036",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11037": {
+            "basic": {
+                "name": "tknb-device-037",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11037",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11038": {
+            "basic": {
+                "name": "tknb-device-038",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11038",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11039": {
+            "basic": {
+                "name": "tknb-device-039",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11039",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11040": {
+            "basic": {
+                "name": "tknb-device-040",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11040",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11041": {
+            "basic": {
+                "name": "tknb-device-041",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11041",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11042": {
+            "basic": {
+                "name": "tknb-device-042",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11042",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11043": {
+            "basic": {
+                "name": "tknb-device-043",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11043",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11044": {
+            "basic": {
+                "name": "tknb-device-044",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11044",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11045": {
+            "basic": {
+                "name": "tknb-device-045",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11045",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11046": {
+            "basic": {
+                "name": "tknb-device-046",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11046",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11047": {
+            "basic": {
+                "name": "tknb-device-047",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11047",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11048": {
+            "basic": {
+                "name": "tknb-device-048",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11048",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11049": {
+            "basic": {
+                "name": "tknb-device-049",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11049",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11050": {
+            "basic": {
+                "name": "tknb-device-050",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11050",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11051": {
+            "basic": {
+                "name": "tknb-device-051",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11051",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11052": {
+            "basic": {
+                "name": "tknb-device-052",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11052",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11053": {
+            "basic": {
+                "name": "tknb-device-053",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11053",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11054": {
+            "basic": {
+                "name": "tknb-device-054",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11054",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11055": {
+            "basic": {
+                "name": "tknb-device-055",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11055",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11056": {
+            "basic": {
+                "name": "tknb-device-056",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11056",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11057": {
+            "basic": {
+                "name": "tknb-device-057",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11057",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11058": {
+            "basic": {
+                "name": "tknb-device-058",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11058",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11059": {
+            "basic": {
+                "name": "tknb-device-059",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11059",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11060": {
+            "basic": {
+                "name": "tknb-device-060",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11060",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11061": {
+            "basic": {
+                "name": "tknb-device-061",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11061",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11062": {
+            "basic": {
+                "name": "tknb-device-062",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11062",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11063": {
+            "basic": {
+                "name": "tknb-device-063",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11063",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11064": {
+            "basic": {
+                "name": "tknb-device-064",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11064",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11065": {
+            "basic": {
+                "name": "tknb-device-065",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11065",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11066": {
+            "basic": {
+                "name": "tknb-device-066",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11066",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11067": {
+            "basic": {
+                "name": "tknb-device-067",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11067",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11068": {
+            "basic": {
+                "name": "tknb-device-068",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11068",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11069": {
+            "basic": {
+                "name": "tknb-device-069",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11069",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11070": {
+            "basic": {
+                "name": "tknb-device-070",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11070",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11071": {
+            "basic": {
+                "name": "tknb-device-071",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11071",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11072": {
+            "basic": {
+                "name": "tknb-device-072",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11072",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11073": {
+            "basic": {
+                "name": "tknb-device-073",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11073",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11074": {
+            "basic": {
+                "name": "tknb-device-074",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11074",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11075": {
+            "basic": {
+                "name": "tknb-device-075",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11075",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11076": {
+            "basic": {
+                "name": "tknb-device-076",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11076",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11077": {
+            "basic": {
+                "name": "tknb-device-077",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11077",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11078": {
+            "basic": {
+                "name": "tknb-device-078",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11078",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11079": {
+            "basic": {
+                "name": "tknb-device-079",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11079",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11080": {
+            "basic": {
+                "name": "tknb-device-080",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11080",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11081": {
+            "basic": {
+                "name": "tknb-device-081",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11081",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11082": {
+            "basic": {
+                "name": "tknb-device-082",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11082",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11083": {
+            "basic": {
+                "name": "tknb-device-083",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11083",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11084": {
+            "basic": {
+                "name": "tknb-device-084",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11084",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11085": {
+            "basic": {
+                "name": "tknb-device-085",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11085",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11086": {
+            "basic": {
+                "name": "tknb-device-086",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11086",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11087": {
+            "basic": {
+                "name": "tknb-device-087",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11087",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11088": {
+            "basic": {
+                "name": "tknb-device-088",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11088",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11089": {
+            "basic": {
+                "name": "tknb-device-089",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11089",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11090": {
+            "basic": {
+                "name": "tknb-device-090",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11090",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11091": {
+            "basic": {
+                "name": "tknb-device-091",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11091",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11092": {
+            "basic": {
+                "name": "tknb-device-092",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11092",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11093": {
+            "basic": {
+                "name": "tknb-device-093",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11093",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11094": {
+            "basic": {
+                "name": "tknb-device-094",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11094",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11095": {
+            "basic": {
+                "name": "tknb-device-095",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11095",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11096": {
+            "basic": {
+                "name": "tknb-device-096",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11096",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11097": {
+            "basic": {
+                "name": "tknb-device-097",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11097",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11098": {
+            "basic": {
+                "name": "tknb-device-098",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11098",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11099": {
+            "basic": {
+                "name": "tknb-device-099",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11099",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        },
+        "netconf:127.0.0.1:11100": {
+            "basic": {
+                "name": "tknb-device-100",
+                "driver": "cassini-openconfig"
+            },
+            "netconf": {
+                "ip": "127.0.0.1",
+                "port": "11100",
+                "username": "root",
+                "password": "root",
+                "idle-timeout": "0"
+            }
+        }
+    }
+}

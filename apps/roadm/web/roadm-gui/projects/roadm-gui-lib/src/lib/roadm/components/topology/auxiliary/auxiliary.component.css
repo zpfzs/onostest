@@ -1,0 +1,150 @@
+body{
+overflow-y: auto;
+background-color: #dcdcdc;
+}
+#main_topo{
+    width:96%;
+    height:870px;
+    background-color:  #f8f8ff;
+    align: center;/*居中*/
+    margin:40px auto;
+}
+.div_title{
+    height: 60px;
+    margin: 0px;
+}
+.div_title p{
+    float:left;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.div_title img{
+    max-width: 20px;
+    float:left;
+    margin-top:25px;
+    margin-left:20px;
+    margin-bottom: 0px;
+}
+.div_title hr{
+    width:98%;
+    /*position: relative;*/
+    left: 0px;
+    margin-top: 0px;
+}
+#div_topo{
+    width: 98%;
+    height:90%;
+    align: center;/*居中*/
+    margin:0 auto;/*居中*/
+    border: 5px solid #dcdcdc;
+    border-radius: 10px;
+    background-color: #dcdcdc;
+    overflow-y: auto;
+}
+.line{
+    stroke-width:5px;
+
+}
+#line1,#line8{
+    stroke:black;
+}
+#line2,#line7{
+    stroke:url(#grad3);
+}
+#line4,#line6{
+    stroke:url(#grad1);
+}
+#line3,#line5{
+    stroke:url(#grad2);
+}
+#config{
+    width:45%;
+    float:left;
+    margin:0px 0px 0px 30px;
+    height:100%;
+}
+#config button{
+margin-top:20px;
+}
+#inconfig{
+    width:90%;
+    height:80%;
+    border: 5px solid black;
+    background-color:#f8f8ff;
+    overflow-y: auto;
+}
+#inconfig1{
+margin-top:15px;
+margin-left:15px;
+}
+#log{
+    width:45%;;
+    float:left;
+    margin:0px 0px 0px 30px;
+    height:100%;
+}
+#inlog{
+   width:90%;
+   height:80%;
+   border: 5px solid black;
+   overflow-y: auto;
+   background-color:#f8f8ff;
+}
+#inlog p{
+    margin:0px;
+    font-size:15px;
+}
+#su{
+float:right;
+margin-right:30px;
+}
+#cl{
+float:right;
+margin-right:30px;
+}
+.clear{
+    clear:both;
+}
+button{
+    /*display: inline-block;*/
+    zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+    /**display: inline;*/
+    vertical-align: baseline;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: .5em 2em .55em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+
+}
+button:hover{
+    text-decoration: none;
+}
+#service_line{
+    width:96%;
+    height: 450px;
+    background-color: #f8f8ff;
+    align: center;/*居中*/
+    margin:30px auto;
+}
+#div_service {
+    width: 98%;
+    height: 80%;
+    align: center; /*居中*/
+    margin: 0 auto; /*居中*/
+    border: 5px solid #dcdcdc;
+    border-radius: 10px;
+    background-color: #f8f8ff;
+    overflow-y: auto;
+}
+.title{
+font-weight:bold;
+}

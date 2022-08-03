@@ -1,0 +1,88 @@
+<body>
+<div id="main">
+    <div id="up">
+        <div id="child1">
+            <div id="head1">
+                <img [src]="pic3"><p>Device Statistics</p>
+                <div class="clear"></div>
+                <hr>
+            </div>
+            <div id="table1">
+                <table>
+                    <tr *ngFor="let item of Device_Connection">
+                        <td>
+                            <div id="DV">
+                                <img [src]="pic4" >
+                                <p>{{item.name}}</p>
+                            </div>
+                        </td>
+                        <td [ngSwitch]="item.status">
+                            <div *ngSwitchCase="1" class="switch">
+                                <img [src]="pic1" ><p >connected</p>
+                            </div>
+                            <div *ngSwitchCase="0" class="switch">
+                                <img [src]="pic2" ><p >disconnected</p>
+                            </div>
+                        </td>
+                        <div class="clear"></div>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="child2"><div id="bar1"></div></div>
+        <div class="clear"></div>
+    </div>
+    <div id="down">
+        <div id="head3">
+            <img [src]="pic3"><p>General Situation</p>
+            <div class="clear"></div>
+            <hr>
+        </div>
+        <div id="table3">
+            <div id="table3_left">
+                <table>
+                    <tr>
+                        <td width="200px">Device Name</td>
+                        <td width="150px">Category</td>
+                        <td width="240px">IP</td>
+                        <td width="300px">Authority</td>
+                        <td width="260px">Running State</td>
+                    </tr>
+                    <tr *ngFor="let item of general_situation">
+                        <td width="200px">{{item.device_name}}</td>
+                        <td width="150px">{{item.category}}</td>
+                        <td width="240px">{{item.IP}}</td>
+                        <td width="300px">{{item.authority}}</td>
+                        <td [ngSwitch]="item.running_state" width="260px">
+                            <p *ngSwitchCase="1" class="run">running</p>
+                            <p *ngSwitchCase="0" class="lei">leisure</p>
+                            <p *ngSwitchCase="-1" class="fai">disconnected</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="table3_right">
+                <div class="table3_right_child" *ngFor="let item of other_device">
+                    <div class="littleleft">
+                        <p>{{item.name}}:</p>
+                        <p>{{item.number}}</p>
+                    </div>
+                    <div class="littleright">
+                        <img [src]="item.pic">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
