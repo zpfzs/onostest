@@ -1,1 +1,74 @@
 
+<body>
+<div id="main_topo">
+    <div class="div_title">
+        <img [src]="pic3"><p>Topology</p>
+        <div class="clear"></div>
+        <hr>
+    </div>
+    <div id="div_topo">
+
+        <button id="CS" type="button" (click)="show()">Create Service</button>
+        <div id="topo_panel" *ngIf="switch">
+                <span>
+                    <p class="panel_p">Source NE:</p>
+                    <select name="sne" id="sne" class="panel_s" [(ngModel)]="topoPanel.SNE">
+                        <option [value]="item" *ngFor="let item of NElist">{{item}}</option>
+                    </select>
+                </span>
+            <div class="clear"></div>
+            <span>
+                    <p class="panel_p">Destination NE:</p>
+                    <select name="dne" id="dne" class="panel_s" [(ngModel)]="topoPanel.DNE">
+                        <option [value]="item" *ngFor="let item of NElist">{{item}}</option>
+                    </select>
+                </span>
+            <div class="clear"></div>
+            <ul>
+                <li>Bandwidth:<input type="text" id="Bandwidth" [(ngModel)]="topoPanel.BW"/>Mbps</li>
+            </ul>
+            <div>
+                <button id="CF" type="button" (click)="vanish();sub();aa()">Submit</button>
+                <button id="CC" type="button" (click)="vanish()">cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="service_line">
+    <div class="div_title">
+        <img [src]="pic3"><p>Service list</p>
+        <div class="clear"></div>
+        <hr>
+    </div>
+    <div id="div_service">
+
+        <table>
+            <thead>
+            <tr>
+                <th>Serial</th>
+                <th>Source NE</th>
+                <th>Destination NE</th>
+                <th>Bandwidth</th>
+                <th>Creat Time</th>
+            </tr>
+            </thead>
+            <tr *ngFor="let item of sevlist">
+                <td>{{item.xh}}</td>
+                <td>{{item.sne}}</td>
+                <td>{{item.dne}}</td>
+                <td>{{item.bw}}</td>
+                <td>{{item.CT | date:'yyyy-MM-dd HH:mm:ss'}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<button type="button" (click)="initialize()">clear</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>

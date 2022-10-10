@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { Component, OnInit, OnDestroy} from '@angular/core';
+import { Component, OnInit, OnDestroy, AfterViewInit } from '@angular/core';
 
 import {
     FnService,
@@ -71,13 +71,15 @@ export class RoadmDeviceComponent extends TableBaseImpl implements OnInit, OnDes
 
     public picUrl='https://pic2.zhimg.com/80/v2-6a9d7ae6a58b0c147c66222024cd273b_720w.jpg?source=d16d100b';
     public picUrl1='https://pic3.zhimg.com/80/v2-a6c3103f731b16d68a7f4d815969e249_720w.jpg?source=d16d100b';
-    public picUrl2='https://pic3.zhimg.com/80/v2-88547b41f9ae52bf84de83f5fa585bc4_720w.jpg?source=d16d100b';
-    public picUrl3='https://pic3.zhimg.com/80/v2-d4b450013c2d1fcc9944ccc8457e2fb4_720w.jpg?source=d16d100b';
-    public picUrl4='https://pic1.zhimg.com/80/v2-007ed57ff965aa9801a2b98d68ce9d5b_720w.jpg?source=d16d100b';
-    public picUrl5='https://pica.zhimg.com/80/v2-cc0723e48cd48e755e7cda0220df21ae_720w.jpg?source=d16d100b';
-    public picUrl6='https://pic3.zhimg.com/80/v2-74026d6b34f82eb5ab4b504c2ec93ed1_720w.jpg?source=d16d100b';
-    public picUrl7='https://pic1.zhimg.com/80/v2-cab6ca8b44b6dd126804e23fe013e8a7_720w.jpg?source=d16d100b';
-
+    public picUrl2='https://pic2.zhimg.com/v2-f96eed5df9f4d53d77c5151c9efbc2bd_b.jpg';
+    public picUrl3='https://pic2.zhimg.com/v2-8035ed5023a1897c3e541d6c7dfd1411_b.jpg';
+    public picUrl4='https://pic2.zhimg.com/v2-bee00f860d867504fc9417cdbb706171_b.jpg';
+    public picUrl5='https://pic3.zhimg.com/v2-68cbe763ac287d1ea583fde16c97bcda_b.jpg';
+    public picUrl6='https://pic4.zhimg.com/v2-9dc5f402f62c3c2e943d0f83328f873b_b.jpg';
+    public picUrl7='https://pic3.zhimg.com/v2-9f960ae048d0eec9111ed233880f527e_b.jpg';
+    public reveal1:boolean=false;
+    public reveal2:boolean=false;
+    public reveal3:boolean=false;
 
     constructor(
         protected fs: FnService,
@@ -106,6 +108,9 @@ export class RoadmDeviceComponent extends TableBaseImpl implements OnInit, OnDes
         };
     }
 
+
+
+
     ngOnInit() {
         this.init();
         this.log.debug('RoadmDeviceComponent initialized');
@@ -126,5 +131,14 @@ export class RoadmDeviceComponent extends TableBaseImpl implements OnInit, OnDes
             this.router.navigate([path], { queryParams: { devId: this.selId } });
         }
     }
+    ngAfterViewInit(){
 
+//         if(this.reveal){
+//             let MM=document.getElementsByClassName('sub_nav');
+//             let WW=MM.getElementsByTagName('li');
+//             WW[3].style.height=="50px";
+//             WW[4].style.height=="50px";
+//             WW[5].style.height=="50px";
+//         }
+    }
 }

@@ -20,7 +20,7 @@ import { RoadmPortComponent } from './port/port.component';
 import { HomeComponent } from './roadm/components/home/home.component';
 import { TopologyComponent } from './roadm/components/topology/topology.component';
 import { ApplicationComponent } from './roadm/components/application/application.component';
-import { ResourceComponent } from './roadm/components/resource/resource.component';
+import { Firberhome1Component } from './roadm/components/cloud/firberhome1/firberhome1.component';
 import { AuxiliaryComponent } from './roadm/components/topology/auxiliary/auxiliary.component';
 import { VirtualComponent } from './roadm/components/topology/virtual/virtual.component';
 import { XinjiangComponent } from './roadm/components/topology/xinjiang/xinjiang.component';
@@ -65,12 +65,12 @@ const appRoutes: Routes = [
                          component: ApplicationComponent
                      },
                      {
-                         path: 'resource',
-                         component: ResourceComponent
-                     },
-                     {
                          path: '',
                          redirectTo: 'home'
+                     },
+                     {
+                         path: 'fiberhome1',
+                         component: Firberhome1Component
                      }
         ]
     },

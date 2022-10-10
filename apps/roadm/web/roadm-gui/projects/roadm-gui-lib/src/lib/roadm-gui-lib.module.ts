@@ -24,7 +24,6 @@ import { RoadmPortComponent } from './port/port.component';
 import { HomeComponent } from './roadm/components/home/home.component';
 import { TopologyComponent } from './roadm/components/topology/topology.component';
 import { ApplicationComponent } from './roadm/components/application/application.component';
-import { ResourceComponent } from './roadm/components/resource/resource.component';
 import { StorageService } from './roadm/services/storage.service';
 import { TopoService } from './roadm/services/topo.service';
 import { HttpClientModule } from '@angular/common/http';
@@ -32,6 +31,7 @@ import { AuxiliaryComponent } from './roadm/components/topology/auxiliary/auxili
 import { VirtualComponent } from './roadm/components/topology/virtual/virtual.component';
 import { XinjiangComponent } from './roadm/components/topology/xinjiang/xinjiang.component';
 import { XinjiangdataService } from './roadm/services/xinjiangdata.service';
+import { Firberhome1Component } from './roadm/components/cloud/firberhome1/firberhome1.component';
 
 @NgModule({
     declarations: [
@@ -40,10 +40,10 @@ import { XinjiangdataService } from './roadm/services/xinjiangdata.service';
         HomeComponent,
         TopologyComponent,
         ApplicationComponent,
-        ResourceComponent,
         AuxiliaryComponent,
         VirtualComponent,
         XinjiangComponent,
+        Firberhome1Component,
     ],
     imports: [
         RoadmRoutingModule,

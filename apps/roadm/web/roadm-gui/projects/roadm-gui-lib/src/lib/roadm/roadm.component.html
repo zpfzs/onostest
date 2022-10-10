@@ -57,16 +57,61 @@
         <label for="checkbox">
             <img [src]="picUrl1" alt="Function" />
         </label>
-        <ul>
-            <li id="column1"><img [src]="picUrl" alt="1" /></li>
-            <li><a routerLink="home" ><img [src]="picUrl2" alt="2" /><span>Home</span></a></li>
-            <li><a routerLink="topology"><img [src]="picUrl3" alt="3" /><span>Topology</span></a></li>
-            <li><a routerLink="resource"><img [src]="picUrl4" alt="4" /><span>Resource</span></a></li>
-            <li><a href="#"><img [src]="picUrl5" alt="5" /><span>Service</span></a></li>
-            <li><a routerLink="application"><img [src]="picUrl6" alt="6" /><span>Application</span></a></li>
-            <li><a href="#"><img [src]="picUrl7" alt="7" /><span>Journal</span></a></li>
+        <ul id="main_nav">
+            <li id="column1" class="nav"><img [src]="picUrl" alt="1" /></li>
+            <li class="nav">
+                <div class="parent_nav">
+                    <a routerLink="home" ><img [src]="picUrl2" alt="2" /><span>Home</span></a>
+                </div>
+            </li>
+            <li class="nav">
+                <div class="parent_nav">
+                    <a (click)="reveal1=!reveal1;"><img [src]="picUrl3" alt="3" /><span>Topology</span></a>
+                </div>
+                <div *ngIf="reveal1">
+                   <ul class="sub_nav">
+                       <li><a routerLink="topology"><span>Virtual Simulation</span></a></li>
+                       <li><a routerLink="topology/auxiliary"><span>Semi-physical Simulation</span></a></li>
+                       <li><a routerLink="topology/xinjiang"><span>Power Grid</span></a></li>
+                   </ul>
+                </div>
+            </li>
+            <li class="nav">
+                <div class="parent_nav">
+                    <a (click)="reveal2=!reveal2;"><img [src]="picUrl5" alt="4" /><span>Cloud</span></a>
+                </div>
+                <div *ngIf="reveal2">
+                    <ul class="sub_nav">
+                        <li><a routerLink="fiberhome1"><span>FiberHome 1</span></a></li>
+                        <li><a><span>FiberHome 2</span></a></li>
+                        <li><a><span>HUST</span></a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav">
+                <div class="parent_nav">
+                    <a href="#" (click)="reveal3=!reveal3;"><img [src]="picUrl4" alt="5" /><span>Network</span></a>
+                </div>
+                <div *ngIf="reveal3">
+                    <ul class="sub_nav">
+                        <li><a href="https://www.baidu.com/" target="_blank"><span>DCN</span></a></li>
+                        <li><a><span>DCI</span></a></li>
+                        <li><a><span>Virtual Nodes</span></a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav">
+                <div class="parent_nav">
+                    <a routerLink="application"><img [src]="picUrl6" alt="6" /><span>Application</span></a>
+                </div>
+            </li>
+            <li class="nav">
+                <div class="parent_nav">
+                    <a href="#"><img [src]="picUrl7" alt="7" /><span>Journal</span></a>
+                </div>
+            </li>
         </ul>
-        <div>
+        <div class="export">
             <router-outlet></router-outlet>
         </div>
     </div>
